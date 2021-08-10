@@ -1,0 +1,116 @@
+body {
+    background-color: #F2FFFC;
+    font-size: 20px;
+}
+.container {
+    margin: 0 auto;
+    width: 940px; 
+    padding-top: 50px;
+    padding-bottom: 50px;   
+}
+main h1 {
+    font-size: 60px;
+    background-color: rgb(120, 30, 60);
+    color: rgb(250, 255, 250);
+    /*Pode ser utilizado assim também - color: #FAFFFA;*/
+    text-align: center;
+    font-family: "Arial";
+    padding: 20px;
+    margin: 0;
+    text-transform: uppercase;
+    border-bottom: 10px solid #000;
+}
+main a {
+    color: #851944;
+}
+h2 {
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    clear: both;
+}
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+blockquote {
+    background-color: #D3DDDA;
+    padding: 16px;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    margin: 0;
+    box-sizing: border-box;
+    float: right;    
+}
+strong {
+    font-weight: 600;
+}
+em {
+    font-style: italic;
+}
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+    clear: right;
+    box-sizing: border-box;  
+    position: relative;
+    top: 389px;  
+}
+nav h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+nav a{
+    color: inherit;
+    text-transform: lowercase;
+}
+footer {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+}
+.icones_menu li {
+    display: inline-block;
+    /*Podemos utilizar referências à id também com # ao invés do . Mas não é recomendado*/
+}
+.icones_menu a {   
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+.github {
+    background-image: url(github.png);
+    background-size: 30px;
+}
+.linkedin {
+    background-image: url(linkedin.png);
+    background-size: 30px;
+}
+aside, img {
+    float: right;
+    width: 15%;
+    border-left: 10px solid black;
+    box-sizing: border-box;
+    border-bottom: 10px solid black;    
+}
+main {
+    float: left;
+    width: 85%;
+}
+footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+img {   
+    /*Position absolute é relativo à tela. Position relative é relativo ao fluxo.*/
+    position: absolute;
+    /*top: 50px;*/
+    /*right: 50px;*/
+}
+
+
